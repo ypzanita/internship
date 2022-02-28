@@ -19,10 +19,12 @@ function App() {
   return (
     <div className="App">
    <div> 
+     <h1> Recipes </h1>
      <ul>
        {post.map((item) => (
          <il key = {item.id} > 
-           {item.title}
+           {item.title} <br></br><img src={item.image} alt="recipe image"></img> <br></br>
+
          </il>
        ))}
      </ul>
