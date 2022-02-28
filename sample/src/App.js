@@ -14,7 +14,6 @@ function App() {
   const getrecipes = async () => {
     const response = await fetch(api_url)
     const data = await response.json()
-    eifjccntrhekgvjvhjjlhvktiubeeileecfufecvgkng
     setrecipes(data.results)
   }
   return (
